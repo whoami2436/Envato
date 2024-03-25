@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    position: sticky;
+    font-size: 12px;
+    height: 54px;
+    background-color: #372f2f;
+    z-index: 100;
+    line-height: 54px;
+}
+.header .left img {
+    width: 20%;
+    float: left;
+    padding: 0 20px;
+}
+.header .left img a {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    text-indent: -9999px;
+    height: 18px;
+    width: 152px;
+    background: url("/assets/logos/envato_market-dde916a48af7413e54aa058fe7ae6856752fca799da4bec355f00aea904bfa19.svg");
+    background-size: 152px 18px;
+}
+.header .right button {
+    width: 90px;
+    font-size: 13px;
+    background-color: #6f9a37;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    left: 1200px;
+    top: 8px;
+}
+.header .right button:hover {
+    background-attachment: #787358;
+}
+.header2 {
+    font-size: 12px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    z-index: 100;
+    line-height: 54px;
+
+}
+.header2 .left2 h4 {
+    width: 30%;
+    font-size: 15px;
+    position: absolute;
+    left: 8%;
+    top: 45px;
+}
+.header2 .right2 ul {
+    position: absolute;
+    display: flex;
+    gap: 60px;
+    margin-left: 1000px;
+    font-size: 15px;
+    top: 44px;
+    color: white;
+    font-weight: bold;
+}
+.header2 .right2 ul a {
+    color: white;
+}
+.header2 .right2 ul a:hover {
+    color: yellow;
+}
+.header3 {
+    font-size: 12px;
+    height: 14vh;
+    background-color: white;
+    color: white;
+    z-index: 100;
+    line-height: 54px;
+}
+.header3 .left3 a img {
+    position: absolute;
+    width: 120px;
+    padding-left: 30px;
+    padding-top: 18px;
+    cursor: pointer;
+}
+.header3 .center3 ul {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    gap: 60px;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 18px;
+    padding-left: 300px;
+}
+.header3 .center3 ul a {
+    color: black;
+}
+.header3 .center3 ul a:hover {
+    color: yellow;
+}
+.header3 .right3 {
+    display: flex;
+    font-size: 17px;
+    padding-top: 33px;
+    padding-left: 1150px;
+    gap: 15px;
+    cursor: pointer;
+}
+.header3 .right3 i {
+    color: black;
+
+}
+.header3 .right3 i:hover {
+    color: aqua;
+}
+.main {
+    background-image: url("sekil/1711309417898.jpg");
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main h5 {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    padding-top: 70px;
+    padding-left: 69px;
+    font-size: 15px;
+}
+.main h2 {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    padding-top: 110px;
+    padding-left: 69px;
+    font-size: 40px;
+}
+.main button {
+    display: flex;
+    position: absolute;
+    font-size: 15px;
+    margin-left: 70px;
+    margin-top: 250px;
+    padding: 20px;
+    border-radius: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.main button:hover {
+    color: white;
+    background-color: blue;
+    transition: color 1s, backgound-color 1s;
+    opacity: 0.8;
+}
+.slate {
+    width: 100%;
+    background-color: antiquewhite;
+    display: inline-block;
+}
+.slate .box {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.slate .box .card {
+    text-align: center;
+    background-color: white;
+    margin: 45px;
+    border-radius: 20px;
+    position: relative;
+}
+.slate .box .card img {
+    width: 80%;
+
+}
+.slate .card i {
+    position: absolute;
+    display: block;
+    margin-top: 16px;
+    margin-left: 190px;
+}
+.slate .card i:hover {
+    color: #e90a54;
+}
+.slate .card .cardtext a p {
+    color: black;
+}
+.slate .card .cardtext a p:hover {
+    color: red;
+}
+.slate .card .cardtext .bir {
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.slate .card .cardtext .bir:hover {
+    color: red;
+}
+.slate .card .cardtext .iki {
+    margin-top: 8px;
+    font-size: 15px;
+}
